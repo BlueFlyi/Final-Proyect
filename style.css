@@ -3,6 +3,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: rgb(23, 23, 23);
   }
 .chessBoard {
   width:80vw;
@@ -90,7 +91,7 @@ body {
 
 .promotionOption{
   border-radius: 50%;
-  background-color: darkgray;
+  background-color: rgb(255, 255, 255);
   transition: transform 0.2s;
   position: absolute;
   z-index: 1000;
